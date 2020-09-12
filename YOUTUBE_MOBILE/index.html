@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script src="main.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Youtube Mobile</title>
+  </head>
+  <body>
+    <!-- Header-->
+    <header>
+      <div class="logo">
+        <i class="fab fa-youtube"></i>
+        <span class="title">Youtube</span>
+      </div>
+      <div class="icons">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-ellipsis-v"></i>
+      </div>
+    </header>
+
+    <!--Video Player-->
+    <section class="player">
+      <video controls src="video/video.mp4"></video>
+    </section>
+
+    <div class="infoAndUpNext">
+      <!---Video info--->
+      <section class="info">
+        <!--Metadata-->
+        <div class="metadata">
+          <ul class="hashtags">
+            <li>#모카롱의일상</li>
+            <li>#김모카</li>
+            <li>#우주대고양</li>
+          </ul>
+          <div class="titleAndButton">
+            <span class="title clamp">
+              모카롱의 일상: 과연 모카는 몇 초 안에 잠이 들까? 모카로운 실험생활
+              시리즈1 | 고양이 낮잠시간 전격탐구 : 고양이는 얼마나 낮잠을 잘까?
+              | 3년차 초보집사의 고양이 재우는 꿀 팁 대방출! | 원하는 때에
+              고양이 재우는 방법
+            </span>
+            <button class="moreBtn">
+              <i class="fas fa-caret-down"></i>
+            </button>
+          </div>
+          <span class="views">1M views 1 month ago</span>
+        </div>
+
+        <!-- Actions-->
+        <ul class="actions">
+          <li>
+            <button>
+              <i class="active fas fa-thumbs-up"></i><span>1K</span>
+            </button>
+          </li>
+          <li>
+            <button><i class="fas fa-thumbs-down"></i><span>1</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-share"></i><span>Share</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-plus"></i><span>Save</span></button>
+          </li>
+          <li>
+            <button>
+              <i class="fab fa-font-awesome-flag"></i><span>Report</span>
+            </button>
+          </li>
+        </ul>
+
+        <!--Channel Description-->
+        <div class="channel">
+          <div class="metadata">
+            <img src="image/avatar.png" alt="" />
+            <div class="info">
+              <span class="name">모카롱의 일상</span>
+              <span class="subscribers">1M subscribers</span>
+            </div>
+          </div>
+          <button class="subscribe">subscribe</button>
+        </div>
+      </section>
+
+      <!--Up Next-->
+      <section class="upNext">
+        <span class="title">Up next</span>
+        <ul>
+          <li class="item">
+            <div class="img"><img src="image/1.jpg" alt="" /></div>
+            <div class="info">
+              <span class="title"
+                >모카에게 관심받는 방법 Best 10 | 당신이 고양이에게 인기 없는
+                이유 + 현업 집사의 꿀팁 대방출★
+              </span>
+              <span class="name">모카롱의 일상</span>
+              <span class="views">82K Views</span>
+            </div>
+            <button class="moreBtn">
+              <i class="fas fa-ellipsis-v"></i>
+            </button>
+          </li>
+          <li class="item">
+            <div class="img"><img src="image/2.jpg" alt="" /></div>
+            <div class="info">
+              <span class="title"
+                >모카와 사진찍기 좋은 구도, 포즈, 방법 유인책까지? : 고양이와
+                손쉽게 인생샷 건지기! 집사들이여 냥생샷에 도전하라!
+              </span>
+              <span class="name">모카롱의 일상</span>
+              <span class="views">75K Views</span>
+            </div>
+            <button class="moreBtn">
+              <i class="fas fa-ellipsis-v"></i>
+            </button>
+          </li>
+          <li class="item">
+            <div class="img"><img src="image/3.jpg" alt="" /></div>
+            <div class="info">
+              <span class="title"
+                >생선을 싫어하는 고양이에게 생선을 선물해보았습니다. 모카의
+                반응은? | 생선을 싫어하는 고양이가 있다? : 우리집 주인님이
+                생선을 싫어하는 이유 + 수의사 인터뷰
+              </span>
+              <span class="name">모카롱의 일상</span>
+              <span class="views">100K Views</span>
+            </div>
+            <button class="moreBtn">
+              <i class="fas fa-ellipsis-v"></i>
+            </button>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
